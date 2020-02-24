@@ -2,9 +2,9 @@
 
 This project is an example of UI automated functional test for Google home page and search using Selenium and Cucumber.
 
-Test scenarios are described in the feature files located here ./src/test/resources/com/automatedtest/sample.
+Test scenarios are described in the feature files
 
-For more info about this project, read the article ["UI automated test project example with Selenium, Cucumber and Java"](https://medium.com/@lucie.duchemin/ui-automated-test-project-example-with-selenium-cucumber-and-java-b33788bd11c4)
+For more info about this project, read the article ["UI automated test project example with Selenium, Cucumber and Java"]
 
 ## Installation ##
 
@@ -30,12 +30,3 @@ By default, tests will run on Chrome. To change that, specify `-Dbrowser={browse
 
 You can also select specific scenarios to execute using `-Dcucumber.options="--tags @your_tag"`. More info about tags and how to combine them [here](https://github.com/cucumber/cucumber/tree/master/tag-expressions).
 
-## Hiptest ##
-
-Feature files can be handled with Hiptest, a test management platform. To get started with Hiptest, 
-go [here](https://hiptest.com/start/tutorials/getting-started-with-behavior-driven-development/). Features files in 
-this project were exported directly from an [Hiptest project](https://app.hiptest.com/projects/102008) using 
-[Hiptest publisher](https://github.com/hiptest/hiptest-publisher). Credentials to access the project are the following.
-
-- _login:_ automated-tests@lumiererouge.net
-- _password:_ Eth7S9#
